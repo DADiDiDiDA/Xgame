@@ -1,6 +1,7 @@
 {
     "interface_version": 2,
     "name": "xgame",
+    "label": "众神派对",
     "description": "众神派对自动化脚本",
     "contact": "",
     "license": "MIT",
