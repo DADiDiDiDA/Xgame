@@ -3,17 +3,25 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1794105761073,
+            "lastSyncTime": 1794108035339,
             "isModifiedExternally": false,
             "isDeleted": false,
             "filePath": "D:\\Automate\\Git-Maawork\\Xgame\\assets\\resource\\pipeline\\返回主界面.json",
             "savedViewport": {
-                "x": -832,
-                "y": -118,
-                "zoom": 0.46
+                "x": -2391,
+                "y": -990,
+                "zoom": 0.75
             },
             "filename": "返回主界面",
             "version": "v2.1.1"
+        }
+    },
+    "$__mpe_anchor_启动游戏一次_返回主界面": {
+        "$__mpe_code": {
+            "position": {
+                "x": 4325,
+                "y": 1534
+            }
         }
     },
     "下半部分处理": {
@@ -399,14 +407,6 @@
             "position": {
                 "x": 3048,
                 "y": 452
-            }
-        }
-    },
-    "$__mpe_anchor_启动游戏一次_返回主界面": {
-        "$__mpe_code": {
-            "position": {
-                "x": 4325,
-                "y": 1534
             }
         }
     }
