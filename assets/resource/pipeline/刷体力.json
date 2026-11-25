@@ -660,6 +660,7 @@
         }
     },
     "是否到达关卡菜单-声波裂隙-第二次": {
+        "max_hit": 25,
         "recognition": {
             "type": "OCR",
             "param": {
@@ -792,6 +793,7 @@
         }
     },
     "进入主菜单界面-第二次-刷体力": {
+        "max_hit": 25,
         "recognition": {
             "type": "TemplateMatch",
             "param": {

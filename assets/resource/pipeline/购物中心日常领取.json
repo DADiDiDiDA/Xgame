@@ -67,6 +67,7 @@
         }
     },
     "进入主界面菜单选项-购物中心日常领取-第二次": {
+        "max_hit": 25,
         "recognition": {
             "type": "TemplateMatch",
             "param": {
@@ -126,6 +127,7 @@
         }
     },
     "选择购物中心免费礼包购物中心日常领取-第二次": {
+        "max_hit": 25,
         "recognition": {
             "type": "TemplateMatch",
             "param": {
@@ -194,6 +196,7 @@
         }
     },
     "选择购物中心购物中心日常领取-第二次": {
+        "max_hit": 25,
         "recognition": {
             "type": "OCR",
             "param": {

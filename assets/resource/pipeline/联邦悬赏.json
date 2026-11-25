@@ -64,6 +64,7 @@
         }
     },
     "关闭累计悬赏奖励-第二次": {
+        "max_hit": 25,
         "recognition": {
             "type": "OCR",
             "param": {
@@ -116,6 +117,7 @@
         }
     },
     "判断剩余悬赏次数-联邦悬赏-第二次": {
+        "max_hit": 25,
         "recognition": {
             "type": "OCR",
             "param": {
@@ -198,6 +200,7 @@
         }
     },
     "寻找是否有可领取的累计悬赏奖励-第二次": {
+        "max_hit": 25,
         "recognition": {
             "type": "TemplateMatch",
             "param": {
@@ -449,6 +452,7 @@
         }
     },
     "进入主菜单界面-第二次-联邦悬赏": {
+        "max_hit": 25,
         "recognition": {
             "type": "TemplateMatch",
             "param": {
@@ -512,6 +516,7 @@
         }
     },
     "进入联邦悬赏界面-方法1-第二次-联邦悬赏": {
+        "max_hit": 25,
         "recognition": {
             "type": "OCR",
             "param": {
@@ -575,6 +580,7 @@
         }
     },
     "进入联邦悬赏界面-方法2-第二次-联邦悬赏": {
+        "max_hit": 25,
         "recognition": {
             "type": "TemplateMatch",
             "param": {
@@ -628,6 +634,7 @@
         }
     },
     "选择悬赏目标-1-第二次": {
+        "max_hit": 25,
         "action": {
             "type": "Click",
             "param": {
@@ -675,6 +682,7 @@
         }
     },
     "选择悬赏目标-2-第二次": {
+        "max_hit": 25,
         "action": {
             "type": "Click",
             "param": {
@@ -722,6 +730,7 @@
         }
     },
     "选择悬赏目标-3-第二次": {
+        "max_hit": 25,
         "action": {
             "type": "Click",
             "param": {
@@ -769,6 +778,7 @@
         }
     },
     "选择悬赏目标-4-第二次": {
+        "max_hit": 25,
         "action": {
             "type": "Click",
             "param": {
@@ -816,6 +826,7 @@
         }
     },
     "选择悬赏目标-5-第二次": {
+        "max_hit": 25,
         "action": {
             "type": "Click",
             "param": {

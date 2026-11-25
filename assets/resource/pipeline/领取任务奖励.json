@@ -161,6 +161,7 @@
         }
     },
     "进入任务界面-第二次-领取任务奖励": {
+        "max_hit": 25,
         "recognition": {
             "type": "OCR",
             "param": {

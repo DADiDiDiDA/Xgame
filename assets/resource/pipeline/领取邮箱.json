@@ -55,6 +55,7 @@
         }
     },
     "进入主菜单-邮箱-第二次": {
+        "max_hit": 25,
         "recognition": {
             "type": "TemplateMatch",
             "param": {
@@ -113,6 +114,7 @@
         }
     },
     "进入邮箱界面-邮箱-第二次": {
+        "max_hit": 25,
         "recognition": {
             "type": "TemplateMatch",
             "param": {
@@ -169,6 +171,7 @@
         }
     },
     "选择全部领取邮箱奖励-邮箱-第二次": {
+        "max_hit": 25,
         "recognition": {
             "type": "OCR",
             "param": {

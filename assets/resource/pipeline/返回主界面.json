@@ -3,14 +3,14 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1794188614657,
+            "lastSyncTime": 1795570364746,
             "isModifiedExternally": false,
             "isDeleted": false,
             "filePath": "D:\\Automate\\Git-Maawork\\Xgame\\assets\\resource\\pipeline\\返回主界面.json",
             "savedViewport": {
-                "x": -1449,
-                "y": -206,
-                "zoom": 0.6
+                "x": -3450,
+                "y": 497,
+                "zoom": 0.98
             },
             "filename": "返回主界面",
             "version": "v2.1.1"
@@ -68,8 +68,8 @@
         },
         "$__mpe_code": {
             "position": {
-                "x": 3887,
-                "y": -379
+                "x": 3889,
+                "y": -512
             }
         }
     },
@@ -90,8 +90,8 @@
         },
         "$__mpe_code": {
             "position": {
-                "x": 4300,
-                "y": -380
+                "x": 4292,
+                "y": -519
             }
         }
     },
@@ -124,8 +124,8 @@
         "post_delay": 2000,
         "$__mpe_code": {
             "position": {
-                "x": 4712,
-                "y": -429
+                "x": 4720,
+                "y": -578
             }
         }
     },
@@ -154,6 +154,7 @@
         }
     },
     "判断是否在主界面-第二次": {
+        "max_hit": 25,
         "recognition": {
             "type": "And",
             "param": {
@@ -245,6 +246,14 @@
             }
         }
     },
+    "按Esc后空节点": {
+        "$__mpe_code": {
+            "position": {
+                "x": 4110,
+                "y": 1724
+            }
+        }
+    },
     "按Esc返回主界面": {
         "max_hit": 30,
         "action": {
@@ -268,15 +277,8 @@
             }
         }
     },
-    "按Esc后空节点": {
-        "$__mpe_code": {
-            "position": {
-                "x": 4110,
-                "y": 1724
-            }
-        }
-    },
     "按Esc返回主界面-第二次": {
+        "max_hit": 25,
         "action": {
             "type": "ClickKey",
             "param": {
@@ -355,6 +357,7 @@
         "post_delay": 2000,
         "timeout": -1,
         "next": [
+            "[JumpBack]需要重新连接",
             "[JumpBack]返回过头了吗",
             "判断是否在主界面",
             "[JumpBack]点击开始游戏",
@@ -466,6 +469,57 @@
             "position": {
                 "x": 3141,
                 "y": 1004
+            }
+        }
+    },
+    "需要重新连接": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    220,
+                    519,
+                    290,
+                    87
+                ],
+                "expected": [
+                    "需要重新连接"
+                ]
+            }
+        },
+        "next": [
+            "确认重新链接"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3889,
+                "y": -273
+            }
+        }
+    },
+    "确认重新链接": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    262,
+                    696,
+                    195,
+                    65
+                ],
+                "expected": [
+                    "确认"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 3000,
+        "$__mpe_code": {
+            "position": {
+                "x": 4240,
+                "y": -271
             }
         }
     }
